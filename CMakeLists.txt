@@ -8,7 +8,7 @@ project(${PROJECT_NAME} C ASM)
 set(CMAKE_VERBOSE_MAKEFILE OFF)
 set(CMAKE_C_STANDARD 99)
 
-add_executable(${PROJECT_NAME}.elf src/main.c)
+add_executable(${PROJECT_NAME}.elf src/main.c src/gckeybrd.c)
 
 target_link_directories(${PROJECT_NAME}.elf PRIVATE ${DEVKITPRO}/libogc/lib/wii)
 target_link_libraries(${PROJECT_NAME}.elf PRIVATE db wiiuse bte ogc m)
