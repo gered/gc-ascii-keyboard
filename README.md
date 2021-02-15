@@ -1,4 +1,4 @@
-# devkitPPC Gamecube ASCII Keyboard Controller Usage Example
+# Gamecube ASCII Keyboard Controller Usage Example
 
 This is a very bare-bones project that shows how to read the [Gamecube ASCII Keyboard Controller](https://nintendo.fandom.com/wiki/ASCII_Keyboard_Controller)
 using devkitPPC and libogc (from [devkitPro](https://devkitpro.org/), of course)
