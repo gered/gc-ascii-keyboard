@@ -23,8 +23,8 @@ int GCKB_Init(int chan);
  *
  * The pressedKeys buffer passed in should be large enough to hold 3 bytes. Each byte will correspond to one key
  * pressed. The keyboard controller can only recognize 3 simultaneous key presses at a time (and, depending on the
- * specific keys, probably only 2 at a time). If too many keys are held down, all of the values returned will be 0x02.
- * A value of 0x00 indicates no key press.
+ * specific keys, probably only 2 at a time). If too many keys are held down, all of the values returned will be 0x01
+ * or 0x02. A value of 0x00 indicates no key press.
  */
 int GCKB_ReadKeys(int chan, u8 *pressedKeys);
 
