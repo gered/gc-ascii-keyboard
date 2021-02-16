@@ -3,6 +3,8 @@
 
 #include <gctypes.h>
 
+#include "gckeymap.h"
+
 /**
  * Attempts to detect the presence of a GC Keyboard Controller connected to any of the controller ports.
  * Returns the SI channel of the found keyboard controller, or -1 if one could not be found.
